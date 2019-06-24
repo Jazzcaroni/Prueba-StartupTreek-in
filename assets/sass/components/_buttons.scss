@@ -1,0 +1,125 @@
+// Button
+.button {
+  padding: .4rem .6rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  font-family: $raleway;
+  font-size: $regular;
+}
+
+
+.button_primary {
+  border: none;
+  color: $raising-black;
+  background-color: $white;
+
+  &:hover {
+    background-color: $dark-salmon;
+  }
+  &:focus {
+    background-color: $spanish-gray;
+  }
+}
+// Button 2
+.button2 {
+  padding: .4rem .8rem;
+  cursor: pointer;
+  font-family: $raleway;
+  font-size: $regular;
+  letter-spacing:.1rem;
+}
+
+.button_secundary {
+  border: none;
+  color: $white;
+  background-color: $ball-blue;
+
+  &:hover {
+    background-color: $middle-blue;
+  }
+  &:focus {
+    background-color: $spanish-gray;
+  }
+}
+// Button 3
+.button3 {
+  padding: .4rem 5.5rem;
+  cursor: pointer;
+  font-family: $raleway;
+  font-size: $regular;
+  letter-spacing:.1rem;
+}
+.button_terciario {
+  border: none;
+  color: $white;
+  background-color: $ball-blue;
+
+  &:hover {
+    background-color: $middle-blue;
+  }
+  &:focus {
+    background-color: $spanish-gray;
+  }
+}
+// Button 4
+.button4 {
+  padding: .4rem 4.5rem;
+  cursor: pointer;
+  font-family: $raleway;
+  font-size: $regular;
+  letter-spacing:.1rem;
+}
+.button_cuarto {
+  border: none;
+  color: $white;
+  background-color: $ball-blue;
+
+  &:hover {
+    background-color: $middle-blue;
+  }
+  &:focus {
+    background-color: $spanish-gray;
+  }
+}
+@media only screen and (max-width: 768px) {
+// Button 3
+.button3 {
+  padding: .4rem  4rem;
+  cursor: pointer;
+  font-family: $raleway;
+  font-size: $regular;
+  letter-spacing:.1rem;
+}
+.button_terciario {
+  border: none;
+  color: $white;
+  background-color: $ball-blue;
+
+  &:hover {
+    background-color: $middle-blue;
+  }
+  &:focus {
+    background-color: $spanish-gray;
+  }
+}
+// Button 4
+.button4 {
+  padding: .4rem 3rem;
+  cursor: pointer;
+  font-family: $raleway;
+  font-size: $regular;
+  letter-spacing:.1rem;
+}
+.button_cuarto {
+  border: none;
+  color: $white;
+  background-color: $ball-blue;
+
+  &:hover {
+    background-color: $middle-blue;
+  }
+  &:focus {
+    background-color: $spanish-gray;
+  }
+}
+}

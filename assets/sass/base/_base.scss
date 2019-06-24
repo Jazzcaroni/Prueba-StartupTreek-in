@@ -1,0 +1,19 @@
+body {
+    margin-bottom: 6rem;
+    background-image:url(../images/bg-price.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-position: bottom;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    body {
+        background-image:url(../images/bg-price.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+      }
+    
+  }

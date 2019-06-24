@@ -1,0 +1,29 @@
+
+.contenedor__navigacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2rem 8rem;
+}
+.contenedor__navigacion__brand {
+    display: inline-flex;
+    padding-right: 0;
+}
+.contenedor__navigacion__menu {
+    padding-left: 0;
+}
+.contenedor__navigacion__button {
+    padding-left: 8rem;
+}
+.contenedor__navigacion__bars {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .contenedor__navigacion {
+        padding: 2rem 2rem;
+    }
+    .contenedor__navigacion__bars {
+        visibility: visible;
+    }
+}
