@@ -8,10 +8,10 @@
 .contenedor__caracteristicas {
     display: flex;
     flex-direction: row;
-    padding: 2rem 16rem;
+    padding: 2rem 16rem 16rem 16rem;
 }
 .contenedor__caracteristicas__texto {
-    padding: 2rem 7rem 2rem 2rem;
+    padding: 2rem 6rem 2rem 2rem;
 }
 .contenedor__caracteristicas__graficos {
     padding: 1rem 2rem 2rem 8rem;
@@ -34,10 +34,10 @@
     .contenedor__caracteristicas {
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 16rem 2rem;
 }
 .contenedor__caracteristicas__texto {
-    padding: 1rem;
+    padding: .5rem;
   
 }
 .contenedor__caracteristicas__graficos {

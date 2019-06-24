@@ -9662,12 +9662,12 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  background-position: bottom;
+  background-position: 0rem 84.3rem;
 }
 
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url(../images/bg-price.svg);
+    background-image: url(../images/bg-price2.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
@@ -9826,7 +9826,7 @@ h6 {
   .contenedor__header__texto {
     position: relative;
     width: 20rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-top: 1rem;
   }
   .contenedor__header__texto h1 {
@@ -9886,7 +9886,7 @@ ul li {
 .contenedor__precios__card1 {
   max-width: 22.5rem;
   min-width: 22.5rem;
-  min-height: 31.8rem;
+  min-height: 27rem;
   background-color: #fff;
   box-shadow: 1px 1px 2px #221d23;
   margin: 2rem 1.5rem;
@@ -9896,12 +9896,12 @@ ul li {
   font-size: 30px;
 }
 .contenedor__precios__card1 ul {
-  margin-bottom: 13rem;
+  margin-bottom: 9.3rem;
 }
 
 .contenedor__precios__card2 {
   max-width: 22.5rem;
-  max-height: 31.8rem;
+  max-height: 27rem;
   background-color: #fff;
   box-shadow: 1px 1px 2px #221d23;
   padding: 0.5rem 2.4rem;
@@ -9911,7 +9911,7 @@ ul li {
   font-size: 30px;
 }
 .contenedor__precios__card2 ul {
-  margin-bottom: 5.28rem;
+  margin-bottom: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -9941,7 +9941,7 @@ ul li {
     background-color: #fff;
     box-shadow: 1px 1px 2px #221d23;
     padding: 1rem;
-    margin: 2rem 1.5rem;
+    margin: 3rem 1.5rem 3rem 1.5rem;
   }
   .contenedor__precios__card2 h3 {
     font-size: 30px;
@@ -9960,11 +9960,11 @@ ul li {
 .contenedor__caracteristicas {
   display: flex;
   flex-direction: row;
-  padding: 2rem 16rem;
+  padding: 2rem 16rem 16rem 16rem;
 }
 
 .contenedor__caracteristicas__texto {
-  padding: 2rem 7rem 2rem 2rem;
+  padding: 2rem 6rem 2rem 2rem;
 }
 
 .contenedor__caracteristicas__graficos {
@@ -9991,11 +9991,11 @@ ul li {
   .contenedor__caracteristicas {
     display: flex;
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 2rem 2rem 16rem 2rem;
   }
 
   .contenedor__caracteristicas__texto {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .contenedor__caracteristicas__graficos {
